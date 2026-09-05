@@ -1,6 +1,6 @@
 # Mausam — AI-Powered Adaptive & Personalized Homepage
 
-Prototype for **SIH26076 — "Personalized 'Mausam' App Homepage"**, Ministry of Earth Sciences (MoES) / India Meteorological Department (IMD).
+"Personalized 'Mausam' App Homepage"**, Ministry of Earth Sciences (MoES) / India Meteorological Department (IMD).
 
 A persona-adaptive, low-bandwidth, offline-first weather dashboard that replaces static meteorological tables with a ranked, role-aware widget feed, vernacular voice bulletins in 14 Indic languages, and a delta-sync engine that keeps a full homepage refresh under **4.9 kB gzip**.
 
