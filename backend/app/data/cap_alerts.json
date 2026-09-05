@@ -1,0 +1,165 @@
+{
+  "_source": "Mock feed structured on the OASIS Common Alerting Protocol (CAP) v1.2 profile used by NDMA Sachet and the IMD Impact Based Forecast service.",
+  "alerts": [
+    {
+      "identifier": "IN-NDMA-CAP-2026-090114",
+      "sender": "sachet@ndma.gov.in",
+      "sent": "2026-09-01T09:15:00+05:30",
+      "status": "Actual",
+      "msgType": "Alert",
+      "scope": "Public",
+      "source": "Cyclone Warning Division, IMD New Delhi",
+      "info": {
+        "language": "en-IN",
+        "category": "Met",
+        "event": "Cyclonic Storm",
+        "responseType": "Prepare",
+        "urgency": "Immediate",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "eventCode": "CYCLONE",
+        "colour": "RED",
+        "headline": "Red Warning: Cyclonic Storm to cross Odisha coast between Puri and Paradip",
+        "headline_hi": "रेड अलर्ट: चक्रवाती तूफान पुरी और पारादीप के बीच ओडिशा तट को पार करेगा",
+        "description": "A deep depression over the north Bay of Bengal has intensified into a cyclonic storm. Landfall is expected within 18 hours with sustained winds of 90-100 km/h gusting to 115 km/h. Sea conditions will be phenomenal along and off the Odisha and north Andhra Pradesh coasts.",
+        "instruction": "Fishermen are advised NOT to venture into the sea until further notice. Residents within 5 km of the coast should move to the nearest designated cyclone shelter. Secure loose roofing, stock 3 days of drinking water, and keep mobile devices charged.",
+        "instruction_hi": "मछुआरों को अगली सूचना तक समुद्र में न जाने की सलाह दी जाती है। तट से 5 किमी के भीतर रहने वाले लोग निकटतम चक्रवात आश्रय में जाएँ।",
+        "expires": "2026-09-02T23:59:00+05:30",
+        "area": {
+          "areaDesc": "Puri, Khordha, Jagatsinghpur, Kendrapara (Odisha)",
+          "geocode": ["IN-OD-PRI", "IN-OD-BBS"],
+          "terrain_scope": ["coastal"],
+          "states": ["Odisha"]
+        }
+      }
+    },
+    {
+      "identifier": "IN-IMD-CAP-2026-090107",
+      "sender": "alerts@imd.gov.in",
+      "sent": "2026-09-01T07:40:00+05:30",
+      "status": "Actual",
+      "msgType": "Alert",
+      "scope": "Public",
+      "source": "Regional Meteorological Centre, Mumbai",
+      "info": {
+        "language": "en-IN",
+        "category": "Met",
+        "event": "Extremely Heavy Rainfall",
+        "responseType": "Avoid",
+        "urgency": "Expected",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "eventCode": "HEAVY_RAIN",
+        "colour": "ORANGE",
+        "headline": "Orange Warning: Extremely heavy rainfall with urban waterlogging likely in Mumbai and Thane",
+        "headline_hi": "ऑरेंज अलर्ट: मुंबई और ठाणे में अत्यंत भारी वर्षा और जलभराव की संभावना",
+        "description": "Offshore trough active along the Konkan coast. Rainfall of 20-24 cm in 24 hours is likely at isolated places. High tide of 4.6 m at 13:20 IST will restrict stormwater discharge.",
+        "instruction": "Avoid low-lying routes: Hindmata, Sion Circle, Andheri Subway, King's Circle. Prefer suburban rail over road travel. Do not park under trees.",
+        "instruction_hi": "निचले इलाकों के मार्गों से बचें। सड़क यात्रा के बजाय उपनगरीय रेल को प्राथमिकता दें।",
+        "expires": "2026-09-01T23:30:00+05:30",
+        "area": {
+          "areaDesc": "Mumbai City, Mumbai Suburban, Thane, Palghar (Maharashtra)",
+          "geocode": ["IN-MH-MUM"],
+          "terrain_scope": [],
+          "states": ["Maharashtra"]
+        }
+      }
+    },
+    {
+      "identifier": "IN-IMD-CAP-2026-090103",
+      "sender": "alerts@imd.gov.in",
+      "sent": "2026-09-01T06:00:00+05:30",
+      "status": "Actual",
+      "msgType": "Alert",
+      "scope": "Public",
+      "source": "Regional Meteorological Centre, Jaipur",
+      "info": {
+        "language": "en-IN",
+        "category": "Met",
+        "event": "Heatwave",
+        "responseType": "Prepare",
+        "urgency": "Expected",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "eventCode": "HEATWAVE",
+        "colour": "YELLOW",
+        "headline": "Yellow Warning: Heatwave conditions in west Rajasthan; maximum temperature 4.2 °C above normal",
+        "headline_hi": "येलो अलर्ट: पश्चिमी राजस्थान में लू की स्थिति; अधिकतम तापमान सामान्य से 4.2 °C अधिक",
+        "description": "Dry westerlies are maintaining maximum temperatures near 42 °C. Night-time minima are 3 °C above normal, limiting overnight recovery.",
+        "instruction": "Avoid outdoor exposure between 12:00 and 16:00 IST. Increase fluid intake with ORS. Field labour should be rescheduled to early morning.",
+        "instruction_hi": "दोपहर 12 से 4 बजे के बीच बाहर निकलने से बचें। ओआरएस के साथ तरल पदार्थ का सेवन बढ़ाएँ।",
+        "expires": "2026-09-03T18:00:00+05:30",
+        "area": {
+          "areaDesc": "Jaipur, Sikar, Churu, Bikaner (Rajasthan)",
+          "geocode": ["IN-RJ-JAI"],
+          "terrain_scope": [],
+          "states": ["Rajasthan"]
+        }
+      }
+    },
+    {
+      "identifier": "IN-IMD-CAP-2026-090111",
+      "sender": "alerts@imd.gov.in",
+      "sent": "2026-09-01T11:05:00+05:30",
+      "status": "Actual",
+      "msgType": "Alert",
+      "scope": "Public",
+      "source": "Regional Meteorological Centre, Lucknow",
+      "info": {
+        "language": "en-IN",
+        "category": "Met",
+        "event": "Thunderstorm with Lightning",
+        "responseType": "Shelter",
+        "urgency": "Immediate",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "eventCode": "THUNDERSTORM",
+        "colour": "YELLOW",
+        "headline": "Yellow Warning: Thunderstorm with lightning and gusty winds (40-50 km/h) likely within 3 hours",
+        "headline_hi": "येलो अलर्ट: 3 घंटे के भीतर बिजली और तेज़ हवाओं (40-50 किमी/घंटा) के साथ गरज के साथ बौछारें",
+        "description": "A convective cluster over central Uttar Pradesh is moving east-northeast at 25 km/h. Isolated hail is possible.",
+        "instruction": "Take shelter indoors, away from trees and metal structures. Unplug appliances. Farmers should suspend field operations.",
+        "instruction_hi": "पेड़ों और धातु संरचनाओं से दूर घर के अंदर शरण लें। खेत का काम रोक दें।",
+        "expires": "2026-09-01T20:00:00+05:30",
+        "area": {
+          "areaDesc": "Lucknow, Unnao, Barabanki, Sitapur (Uttar Pradesh)",
+          "geocode": ["IN-UP-LKO", "IN-UP-KNP"],
+          "terrain_scope": [],
+          "states": ["Uttar Pradesh"]
+        }
+      }
+    },
+    {
+      "identifier": "IN-NDMA-CAP-2026-090108",
+      "sender": "sachet@ndma.gov.in",
+      "sent": "2026-09-01T08:20:00+05:30",
+      "status": "Actual",
+      "msgType": "Alert",
+      "scope": "Public",
+      "source": "Geological Survey of India - Landslide Early Warning",
+      "info": {
+        "language": "en-IN",
+        "category": "Geo",
+        "event": "Landslide Risk",
+        "responseType": "Avoid",
+        "urgency": "Expected",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "eventCode": "LANDSLIDE",
+        "colour": "ORANGE",
+        "headline": "Orange Warning: High landslide susceptibility on hill roads after 3-day cumulative rainfall of 148 mm",
+        "headline_hi": "ऑरेंज अलर्ट: 3 दिनों में 148 मिमी वर्षा के बाद पहाड़ी सड़कों पर भूस्खलन की आशंका",
+        "description": "Soil saturation on cut slopes along NH-7 and NH-707 has crossed the critical threshold. Rockfall and debris flow are likely in the 06:00-11:00 IST window.",
+        "instruction": "Avoid night travel on hill roads. Check the state disaster management helpline before starting a journey. Do not halt below cut slopes.",
+        "instruction_hi": "पहाड़ी सड़कों पर रात की यात्रा से बचें। यात्रा शुरू करने से पहले हेल्पलाइन जाँचें।",
+        "expires": "2026-09-02T12:00:00+05:30",
+        "area": {
+          "areaDesc": "Dehradun, Tehri Garhwal, Rudraprayag (Uttarakhand); Shimla, Kinnaur (Himachal Pradesh)",
+          "geocode": ["IN-UK-DDN", "IN-HP-SML"],
+          "terrain_scope": ["mountain"],
+          "states": ["Uttarakhand", "Himachal Pradesh"]
+        }
+      }
+    }
+  ]
+}

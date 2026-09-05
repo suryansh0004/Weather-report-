@@ -1,0 +1,59 @@
+{
+  "_source": "Mock feed modelled on ISRO MOSDAC (Meteorological & Oceanographic Satellite Data Archival Centre) cyclone-track and sea-state products derived from INSAT-3DR IMAGER and SCATSAT-1.",
+  "satellite_products": [
+    { "product": "INSAT-3DR IMAGER TIR1 Cloud Top Temperature", "latest_pass": "2026-09-01T11:45:00+05:30", "resolution_km": 4 },
+    { "product": "SCATSAT-1 Ocean Surface Wind Vector", "latest_pass": "2026-09-01T09:10:00+05:30", "resolution_km": 25 },
+    { "product": "INSAT-3D Hydro-Estimator Rainfall", "latest_pass": "2026-09-01T12:00:00+05:30", "resolution_km": 4 }
+  ],
+  "active_systems": [
+    {
+      "system_id": "BOB-04-2026",
+      "name": "Cyclonic Storm 'MITHILA'",
+      "basin": "North Indian Ocean - Bay of Bengal",
+      "category": "Cyclonic Storm (CS)",
+      "current": {
+        "timestamp": "2026-09-01T11:30:00+05:30",
+        "lat": 19.9,
+        "lon": 87.4,
+        "central_pressure_hpa": 986,
+        "max_sustained_wind_kmph": 92,
+        "gust_kmph": 115,
+        "movement": "West-northwest at 14 km/h",
+        "distance_to_coast_km": 168,
+        "expected_landfall": "2026-09-02T05:30:00+05:30",
+        "landfall_zone": "Between Puri and Paradip, Odisha"
+      },
+      "track": [
+        { "t": "-24h", "timestamp": "2026-08-31T11:30:00+05:30", "lat": 17.8, "lon": 90.6, "wind_kmph": 45, "stage": "Depression" },
+        { "t": "-18h", "timestamp": "2026-08-31T17:30:00+05:30", "lat": 18.3, "lon": 89.8, "wind_kmph": 55, "stage": "Deep Depression" },
+        { "t": "-12h", "timestamp": "2026-08-31T23:30:00+05:30", "lat": 18.9, "lon": 89.0, "wind_kmph": 65, "stage": "Deep Depression" },
+        { "t": "-6h", "timestamp": "2026-09-01T05:30:00+05:30", "lat": 19.4, "lon": 88.2, "wind_kmph": 82, "stage": "Cyclonic Storm" },
+        { "t": "0h", "timestamp": "2026-09-01T11:30:00+05:30", "lat": 19.9, "lon": 87.4, "wind_kmph": 92, "stage": "Cyclonic Storm" },
+        { "t": "+6h", "timestamp": "2026-09-01T17:30:00+05:30", "lat": 20.1, "lon": 86.7, "wind_kmph": 98, "stage": "Cyclonic Storm", "forecast": true },
+        { "t": "+12h", "timestamp": "2026-09-01T23:30:00+05:30", "lat": 20.2, "lon": 86.1, "wind_kmph": 100, "stage": "Cyclonic Storm", "forecast": true },
+        { "t": "+18h", "timestamp": "2026-09-02T05:30:00+05:30", "lat": 20.3, "lon": 85.7, "wind_kmph": 88, "stage": "Landfall", "forecast": true },
+        { "t": "+24h", "timestamp": "2026-09-02T11:30:00+05:30", "lat": 20.5, "lon": 85.1, "wind_kmph": 60, "stage": "Deep Depression (inland)", "forecast": true }
+      ],
+      "sea_state": {
+        "wave_height_m": 5.4,
+        "swell_period_s": 11,
+        "sea_condition": "Phenomenal",
+        "fishermen_warning": "Do not venture into the sea off the Odisha and north Andhra Pradesh coasts until 02 September 23:30 IST.",
+        "storm_surge_m": 1.8,
+        "surge_inundation_km": 2.5
+      },
+      "affected_geocodes": ["IN-OD-PRI", "IN-OD-BBS", "IN-AP-VSK", "IN-WB-KOL"]
+    }
+  ],
+  "coastal_bulletins": {
+    "IN-MH-MUM": { "wave_height_m": 2.9, "sea_condition": "Rough", "high_tide": ["13:20 IST - 4.6 m", "01:55 IST - 4.1 m"], "fishermen_warning": "Squally weather with wind speed 45-55 km/h likely along and off the Maharashtra coast. Fishermen advised not to venture out." },
+    "IN-TN-CHN": { "wave_height_m": 1.6, "sea_condition": "Moderate", "high_tide": ["10:40 IST - 1.2 m", "22:15 IST - 1.1 m"], "fishermen_warning": "No warning. Sea conditions favourable for small-craft operation up to 12 nautical miles." },
+    "IN-KL-KCH": { "wave_height_m": 2.2, "sea_condition": "Moderate to Rough", "high_tide": ["11:05 IST - 0.9 m", "23:30 IST - 0.8 m"], "fishermen_warning": "Kallakkadal (swell surge) advisory: waves of 2.0-2.5 m likely along the Kerala coast. Avoid beach recreation." },
+    "IN-GJ-PBD": { "wave_height_m": 3.4, "sea_condition": "Rough to Very Rough", "high_tide": ["12:10 IST - 2.8 m", "00:35 IST - 2.6 m"], "fishermen_warning": "Strong winds of 40-50 km/h gusting to 60 km/h over the Gujarat coast and adjoining Arabian Sea." },
+    "IN-OD-PRI": { "wave_height_m": 5.4, "sea_condition": "Phenomenal", "high_tide": ["12:55 IST - 2.1 m", "01:20 IST - 1.9 m"], "fishermen_warning": "CYCLONE MITHILA: Total suspension of fishing operations. Return all boats to harbour immediately." },
+    "IN-OD-BBS": { "wave_height_m": 4.8, "sea_condition": "Very Rough to High", "high_tide": ["12:50 IST - 2.0 m", "01:15 IST - 1.8 m"], "fishermen_warning": "CYCLONE MITHILA: Fishing operations suspended. Boats must remain in harbour." },
+    "IN-AP-VSK": { "wave_height_m": 3.7, "sea_condition": "Very Rough", "high_tide": ["11:35 IST - 1.5 m", "23:50 IST - 1.4 m"], "fishermen_warning": "Squally winds of 55-65 km/h likely off the north Andhra coast. Fishermen advised to remain ashore." },
+    "IN-WB-KOL": { "wave_height_m": 3.1, "sea_condition": "Rough", "high_tide": ["14:05 IST - 5.2 m", "02:30 IST - 4.9 m"], "fishermen_warning": "Rough seas over the north Bay of Bengal. Fishing operations suspended in Sundarbans estuarine zones." },
+    "IN-GA-PAN": { "wave_height_m": 2.4, "sea_condition": "Moderate to Rough", "high_tide": ["12:25 IST - 2.2 m", "00:50 IST - 2.0 m"], "fishermen_warning": "High-wave alert for 2.0-2.5 m waves. Avoid venturing into the sea in small craft." }
+  }
+}

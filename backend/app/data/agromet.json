@@ -1,0 +1,91 @@
+{
+  "_source": "Mock dataset modelled on the IMD Gramin Krishi Mausam Sewa (GKMS) District Agromet Advisory Bulletin schema, issued Tuesdays & Fridays by the Agromet Field Units (AMFU).",
+  "issuing_authority": "Gramin Krishi Mausam Sewa (GKMS), India Meteorological Department, Ministry of Earth Sciences",
+  "bulletin_cycle_days": ["TUE", "FRI"],
+  "district_advisories": {
+    "IN-UP-LKO": {
+      "amfu": "AMFU, CSA University of Agriculture & Technology, Kanpur",
+      "kharif_crops": ["Paddy (Sarju-52)", "Maize", "Arhar (Pigeon pea)", "Sugarcane"],
+      "rabi_crops": ["Wheat (HD-2967)", "Mustard", "Gram", "Potato"],
+      "advisories": [
+        { "crop": "Paddy", "stage": "Panicle initiation", "priority": "high", "text": "Maintain 5 cm standing water in the field. With 68% rain probability over the next 48 hours, defer top-dressing of urea until the dry spell." },
+        { "crop": "Sugarcane", "stage": "Grand growth", "priority": "medium", "text": "Prop and tie sugarcane clumps against expected 32 km/h gusts to prevent lodging. Ensure drainage channels are cleared." },
+        { "crop": "Arhar", "stage": "Vegetative", "priority": "medium", "text": "Scout for pod borer. Spray only after the rain window closes — wait for a 6-hour dry spell." }
+      ],
+      "livestock": "Provide dry bedding in cattle sheds; humidity above 80% raises mastitis risk. Deworm before the monsoon peak.",
+      "horticulture": "Stake tomato and brinjal plants. Apply Bordeaux paste on mango trunks against gummosis."
+    },
+    "IN-PB-LDH": {
+      "amfu": "AMFU, Punjab Agricultural University, Ludhiana",
+      "kharif_crops": ["Paddy (PR-126)", "Basmati (Pusa-1509)", "Cotton", "Maize"],
+      "rabi_crops": ["Wheat (PBW-826)", "Mustard", "Berseem"],
+      "advisories": [
+        { "crop": "Paddy PR-126", "stage": "Tillering", "priority": "high", "text": "Alternate wetting and drying is advised; groundwater table is falling. Skip irrigation for 2 days after forecast rainfall." },
+        { "crop": "Cotton", "stage": "Square formation", "priority": "high", "text": "Pink bollworm pheromone traps at 5/acre. Avoid spraying — 22 km/h winds will cause drift losses above 30%." },
+        { "crop": "Maize", "stage": "Knee-high", "priority": "low", "text": "Earth up rows to improve drainage before the next western disturbance." }
+      ],
+      "livestock": "Ensure 24-hour clean water access; heat load index is in the mild-stress band for crossbred cattle.",
+      "horticulture": "Kinnow orchards: apply zinc sulphate spray after the dry window opens."
+    },
+    "IN-MH-PUN": {
+      "amfu": "AMFU, Mahatma Phule Krishi Vidyapeeth, Rahuri",
+      "kharif_crops": ["Soybean", "Bajra", "Onion (Kharif)", "Sugarcane"],
+      "rabi_crops": ["Jowar", "Chana", "Wheat"],
+      "advisories": [
+        { "crop": "Soybean", "stage": "Pod filling", "priority": "high", "text": "Yellow mosaic vector whitefly active. Install yellow sticky traps; delay foliar spray until wind speed drops below 10 km/h." },
+        { "crop": "Onion", "stage": "Bulb development", "priority": "medium", "text": "Stop irrigation 10 days before harvest. Expected 18 mm rainfall is adequate for the current stage." },
+        { "crop": "Sugarcane", "stage": "Formative", "priority": "low", "text": "Trash mulching between rows will conserve moisture through the forecast dry spell." }
+      ],
+      "livestock": "Chaff fodder to reduce wastage; green fodder availability is adequate this fortnight.",
+      "horticulture": "Grape gardens: watch for downy mildew after 2 consecutive wet days."
+    },
+    "IN-OD-PRI": {
+      "amfu": "AMFU, Orissa University of Agriculture & Technology, Bhubaneswar",
+      "kharif_crops": ["Paddy (Swarna)", "Groundnut", "Green gram", "Coconut"],
+      "rabi_crops": ["Groundnut", "Blackgram", "Vegetables"],
+      "advisories": [
+        { "crop": "Paddy Swarna", "stage": "Maximum tillering", "priority": "critical", "text": "CYCLONE WATCH: Drain fields to 5 cm and harvest any mature crop immediately. Bundle and shift harvested produce to elevated pucca storage." },
+        { "crop": "Coconut", "stage": "Bearing", "priority": "critical", "text": "Remove mature nuts and dry fronds from palms near dwellings ahead of the expected 90 km/h squall." },
+        { "crop": "Groundnut", "stage": "Peg formation", "priority": "high", "text": "Provide field drainage; waterlogging beyond 24 hours causes collar rot." }
+      ],
+      "livestock": "Shift livestock to the designated cyclone shelter on higher ground; stock 3 days of dry fodder and drinking water.",
+      "horticulture": "Stake banana plants with bamboo tripods and harvest near-mature bunches."
+    },
+    "IN-UK-DDN": {
+      "amfu": "AMFU, GB Pant University of Agriculture & Technology, Pantnagar",
+      "kharif_crops": ["Paddy", "Finger millet (Mandua)", "Soybean", "Ginger"],
+      "rabi_crops": ["Wheat", "Barley", "Lentil", "Potato"],
+      "advisories": [
+        { "crop": "Finger millet", "stage": "Earhead emergence", "priority": "medium", "text": "Terrace bunds should be checked and repaired — 45 mm rainfall expected in 72 hours on steep slopes." },
+        { "crop": "Ginger", "stage": "Rhizome development", "priority": "high", "text": "Ensure raised-bed drainage; soft rot spreads rapidly above 85% soil saturation." },
+        { "crop": "Apple (mid-hills)", "stage": "Fruit maturity", "priority": "medium", "text": "Harvest early varieties before the hail-prone convective window (14:00-18:00 IST)." }
+      ],
+      "livestock": "Avoid grazing on landslide-prone slopes for 48 hours after heavy rain.",
+      "horticulture": "Anti-hail nets recommended for stone-fruit orchards this week."
+    },
+    "IN-RJ-JAI": {
+      "amfu": "AMFU, SKN Agriculture University, Jobner",
+      "kharif_crops": ["Bajra", "Moong", "Guar", "Groundnut"],
+      "rabi_crops": ["Mustard", "Wheat", "Barley", "Cumin"],
+      "advisories": [
+        { "crop": "Bajra", "stage": "Grain filling", "priority": "high", "text": "Soil moisture in the 0-30 cm layer is at 31% of field capacity. One light irrigation advised if canal water is available." },
+        { "crop": "Guar", "stage": "Flowering", "priority": "medium", "text": "Heat stress likely above 41 °C — irrigate in the early morning to reduce flower drop." },
+        { "crop": "Moong", "stage": "Pod maturity", "priority": "low", "text": "Plan harvest in the next dry window; rain probability is under 20%." }
+      ],
+      "livestock": "Heatwave protocol: shade nets over sheds, water twice at midday, avoid transporting animals from 11:00 to 16:00.",
+      "horticulture": "Ber and pomegranate: mulch the basin to cut evaporation losses."
+    }
+  },
+  "default_advisory": {
+    "amfu": "Regional Agromet Field Unit (AMFU) - State Agricultural University",
+    "kharif_crops": ["Paddy", "Pulses", "Oilseeds", "Vegetables"],
+    "rabi_crops": ["Wheat", "Mustard", "Gram"],
+    "advisories": [
+      { "crop": "Standing crop", "stage": "Vegetative", "priority": "medium", "text": "Match irrigation to the forecast rainfall; avoid nutrient application within 24 hours of expected rain to prevent leaching losses." },
+      { "crop": "Field operations", "stage": "General", "priority": "medium", "text": "Plan spraying and harvesting for the identified dry window in the 7-day outlook." },
+      { "crop": "Storage", "stage": "Post-harvest", "priority": "low", "text": "Keep harvested produce covered; ambient humidity favours fungal growth." }
+    ],
+    "livestock": "Ensure clean drinking water and shade; adjust feed to weather stress conditions.",
+    "horticulture": "Inspect drainage in orchards and stake young plants against gusty winds."
+  }
+}
